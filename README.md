@@ -64,3 +64,30 @@ soccer-analysis/
 ## Data Source
 [European Soccer Database](https://www.kaggle.com/datasets/hugomathien/soccer) 
 by Hugo Mathien on Kaggle
+
+## Advanced Analysis Projects
+
+### 1. Underrated Players Finder
+Identified hidden gems by comparing performance scores vs official ratings.
+- 67.8% of players are overrated by FIFA ratings
+- Only 0.2% qualify as highly underrated
+- notebook: `06_underrated_players.ipynb`
+
+### 2. Player Comparison Tool
+Built a radar chart tool to compare any two players across 12 attributes.
+- Messi beats Ronaldo 6-5 on individual attributes
+- Overall ratings: Messi 94 vs Ronaldo 93
+- Notebook: `07_player_comparison.ipynb`
+
+### 3. Team Form Tracker
+Tracked team performance across consecutive matches using rolling averages.
+- Barcelona won 77% of all matches in the dataset
+- Barcelona edges Real Madrid on points per game
+- Notebook: `08_team_form_tracker.ipynb`
+
+### 4. Expected Goals (xG) Model
+Built a Gradient Boosting model to predict shot quality.
+- Analyzed 636,853 shots across all matches
+- Model AUC: 0.650 (30% better than random)
+- Foot shots have highest xG of all shot types
+- Notebook: `09_xg_model.ipynb`
