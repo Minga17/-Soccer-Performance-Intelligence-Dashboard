@@ -47,7 +47,7 @@ soccer-analysis/
 | Player rating predictor | Regression | 0.68 MAE |
 
 ## Dashboard Preview
-![Dashboard](dashboard_screenshot.png)
+![Dashboard](dashboard_sreenshot.png)
 
 ## What I Learned
 - How to work with messy real world sports data
